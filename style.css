@@ -135,7 +135,7 @@ footer{
     color: khaki !important; 
 }
 body{
-    background: #F7DC6F !important;
+    background: #f5f5f5 !important;
 }
 .display-2{
     color: darkslategray
@@ -150,3 +150,10 @@ body{
 .fea-txtc:hover{
 cursor: pointer;
 }
+.col-md-3{
+    padding: 0 !important;
+}
+
+
+  
+    
