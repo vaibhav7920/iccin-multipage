@@ -54,7 +54,7 @@
 }
 
 .blink_me {
-	animation: blinker 1s linear infinite;
+	animation: blinker 3s linear infinite;
   }
   
   @keyframes blinker {
@@ -64,8 +64,8 @@
   }
 
   .r-logo{
-	height: 5em !important;
-	width: 10em !important;
+	height: 8em !important;
+	width: 16em !important;
 	background-color: white;
 	z-index: -10;
 }
@@ -88,7 +88,6 @@
     background: black;
     width: 100%;
     margin:0;
-    position:q
 }
 .row{
     margin: 0 !important;
@@ -147,12 +146,64 @@ body{
 .thin-font{
     font-size: 16px
 }
-.fea-txtc:hover{
-cursor: pointer;
-}
+
 .col-md-3{
     padding: 0 !important;
 }
+
+.quick a{
+    color: white;
+}
+.quick a:hover{
+    text-decoration: none;
+    color: khaki;
+}
+.animated { 
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #2A8FF4 0%, #ffffff 15%, #2A8FF4 35%, #ffffff 50%, #2A8FF4 85%, #2A8FF4 90%, #ffffff 100%) repeat;
+    background-clip: text; -webkit-background-clip: text;
+    -webkit-animation: color-text 3s infinite; 
+    animation: color-text 3s infinite;
+}
+@keyframes color-text {
+    0% {
+    background-position: 0 0;
+    }
+    10%{
+    background-position: 100px 0;
+    }
+    20%{
+    background-position: 200px 0;
+    }
+    30%{
+    background-position: 300px 0;
+    }
+    40%{
+    background-position: 400px 0;
+    }
+    50%{
+    background-position: 500px 0;
+    }
+    50%{
+    background-position: 650px 0;
+    }
+    60%{
+    background-position: 750px 0;
+    }
+    70%{
+    background-position: 850px 0;
+    }
+    80%{
+    background-position: 950px 0;
+    }
+    90%{
+    background-position: 1100px 0;
+    }
+    100% {
+    background-position: 1262px 0;
+    }
+    }
+
 
 
   
